@@ -4,14 +4,10 @@
 // Created on: Mar 2022
 // This file contains the JS functions for index.html
 
-function doMathClicked () {
+function AreaMath() {
   // this function does basic math
-  document.getElementById('multiply-math').innerHTML = '3 + 4 * 2 = ' + (3 + 4 * 2)
-
-  function doMathClicked () {
-  // this function does basic math
-  document.getElementById('multiply-math').innerHTML = '3 + 4 * 2 = ' + (3 + 4 * 2)
-  document.getElementById('divide-math').innerHTML = '(4 / 2) + 3 = ' + ((4 / 2) + 3)
-
+  document.getElementById('calc-area').innerHTML = 'The area is ' + (5*3) + 'cm²'
 }
-
+function PerMath() {
+	document.getElementById('calc-per').innerHTML = 'The perimeter is ' + (2*5 + 2*3) + 'cm'
+}

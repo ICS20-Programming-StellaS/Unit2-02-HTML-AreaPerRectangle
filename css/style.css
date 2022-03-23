@@ -4,19 +4,38 @@
 * ICS2O-Unit2-02-HTML-JS-HelloWorld
 */
 
+
+
 body {
-  background-color: #cbc3c3;
+	background-color: CadetBlue;
 }
 
 h1 {
-	background-color: #414141;
-	color: hsl(0,0%,100%);
+	background-color: #B0E0E6;
+	color: hsl(0, 0%, 0%);
 	padding: 40px;
+	text-align: center;
+}
+button {
+	font-size:20px;
+  background-color: #B0E0E6;
+	color: hsl(0, 0%, 0%);
+	padding: 20px;
+	text-align: center;
+}
+
+div {
+	font-size:20px;
+  background-color: #B0E0E6;
+	color: hsl(0, 0%, 0%);
+	padding: 20px;
 	text-align: center;
 }
 
 p {
-	background-color: #414141;
-  color: hsl(0,0%,100%);
-  text-align: center;
+	font-size:20px;
+	background-color: #E0FFFF;
+	color: hsl(0, 0%, 0%);
+	padding: 20px;
+	text-align: center;
 }
